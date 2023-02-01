@@ -50,6 +50,8 @@ class MainActivity : AppCompatActivity() {
                 randomMisoloz()
             }
 
+
+            //Comment
             if (rad2.isChecked) {
                 if (rad2.text.toString().toInt() == answer) {
                     val mediaPlayer = MediaPlayer.create(this, R.raw.right)
